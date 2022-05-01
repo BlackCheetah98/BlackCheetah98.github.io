@@ -438,6 +438,7 @@
 
                 listeners() {
                     window.addEventListener('wheel', this.nextSlide, {passive: true});
+                    window.addEventListener('ontouchmove', this.nextSlide, {passive: true});
                 }
 
                 render() {
